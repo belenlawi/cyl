@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>C&L</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section>
+        <img style="width:400px; height:300px;" src="images/logo.png" />
+    </section>
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img style="width:30px; height:30px;" src="images/icono-menu.png" /></label>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="productos.html">PRODUCTOS</a></li>
+                <li><a href="beneficios.html">BENEFICIOS</a></li>
+                <li><a href="contactos.html">CONTACTOS</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="slider">
+        <ul>
+            <li><img src="images/img20.jpg" alt=""></li>
+            <li><img src="images/img21.jpg" alt=""></li>
+            <li><img src="images/img23.jpg" alt=""></li>
+            <li><img src="images/img25.jpg" alt=""></li>
+        </ul>
+
+
+    </div>
+
+    <!-- FORMULARIO -->
+    <div class="fondo">
+        <form action="enviar.php" method="post">
+            <h2>CONTACTO</h2>
+            <input type="text" name="Nombre" placeholder="Nombre" required>
+            <input type="text" name="Correo" placeholder="Correo" required>
+            <input type="text" name="Telefono" placeholder="Telefono" required>
+            <textarea name="mensaje" placeholder="Escriba aqui su mensaje" required></textarea>
+            <input type="submit" value="ENVIAR" id="boton">
+
+
+        </form>
+    </div>
+
+    /*COMIENZA GALERIA*/
+
+    <h1>Galeria de Imagenes</h1>
+    <ul class="galeria">
+        <li><a href="#img1"><img src="images/img1.jpg"></a></li>
+        <li><a href="#img2"><img src="images/img2.jpeg"></a></li>
+        <li><a href="#img3"><img src="images/img3.jpeg"></a></li>
+        <li><a href="#img4"><img src="images/img4.jpeg"></a></li>
+        <li><a href="#img5"><img src="images/img5.jpeg"></a></li>
+        <li><a href="#img6"><img src="images/img6.jpeg"></a></li>
+        <li><a href="#img7"><img src="images/img7.jpg"></a></li>
+        <li><a href="#img8"><img src="images/img8.jpeg"></a></li>
+    </ul>
+
+    <div class="modal" id="img1">
+        <h3>ALUMINIO</h3>
+        <div class="imagen">
+            <a href="#img8">&#60;</a>
+            <a href="#img2"><img src="images/img1.jpg"></a>
+            <a href="#img2">></a>
+            <p>CINTAS <br> CAÑOS <br>PLACAS<br>BARRAS <br> ALAMBRES<br> PLANCHUELAS<br> </p>
+        </div>
+        <a class="cerrar" href="">X</a>
+
+    </div>
+
+    <div class="modal" id="img2">
+        <h3>PICO</h3>
+        <div class="imagen">
+            <a href="#img1">&#60;</a>
+            <a href="#img3"><img src="images/img2.jpeg"></a>
+            <a href="#img3">></a>
+            <p>CINTAS <br> CAÑOS <br>PLACAS<br>BARRAS <br> ALAMBRES<br> PLANCHUELAS<br> </p>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img3">
+        <h3>PORTONES</h3>
+        <div class="imagen">
+            <a href="#img2">&#60;</a>
+            <a href="#img4"><img src="images/img3.jpeg"></a>
+            <a href="#img4">></a>
+            <p>CINTAS <br> CAÑOS <br>PLACAS<br>BARRAS <br> ALAMBRES<br> PLANCHUELAS<br> </p>
+        </div>
+
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img4">
+        <h3>PINCHES</h3>
+        <div class="imagen">
+            <a href="#img3">&#60;</a>
+            <a href="#img5"><img src="images/img4.jpeg"></a>
+            <a href="#img5">></a>
+            <p>CINTAS <br> CAÑOS <br>PLACAS<br>BARRAS <br> ALAMBRES<br> PLANCHUELAS<br> </p>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img5">
+        <h3>ACERO</h3>
+        <div class="imagen">
+            <a href="#img4">&#60;</a>
+            <a href="#img6"><img src="images/img5.jpeg"></a>
+            <a href="#img6">></a>
+            <p>CINTAS <br> CAÑOS <br>PLACAS<br>BARRAS <br> ALAMBRES<br> PLANCHUELAS<br> </p>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img6">
+        <h3>PAISAJE 6</h3>
+        <div class="imagen">
+            <a href="#img5">&#60;</a>
+            <a href="#img7"><img src="images/img6.jpeg"></a>
+            <a href="#img7">></a>
+            <p>CINTAS <br> CAÑOS <br>PLACAS<br>BARRAS <br> ALAMBRES<br> PLANCHUELAS<br> </p>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img7">
+        <h3>PAISAJE 7</h3>
+        <div class="imagen">
+            <a href="#img6">&#60;</a>
+            <a href="#img8"><img src="images/img7.jpg"></a>
+            <a href="#img8">></a>
+            <p>CINTAS <br> CAÑOS <br>PLACAS<br>BARRAS <br> ALAMBRES<br> PLANCHUELAS<br> </p>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img8">
+        <h3>PAISAJE 8</h3>
+        <div class="imagen">
+            <a href="#img7">&#60;</a>
+            <a href="#img1"><img src="images/img8.jpeg"></a>
+            <a href="#img1">></a>
+            <p>CINTAS <br> CAÑOS <br>PLACAS<br>BARRAS <br> ALAMBRES<br> PLANCHUELAS<br> </p>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+</body>
+
+</html>
